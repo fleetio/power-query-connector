@@ -4,7 +4,17 @@ section Fleetio;
 
 BaseUrl = "https://secure.fleetio.com/api/";
 
-RootEntities = {"v2/contacts"};
+RootEntities = {
+        "v2/issues",
+        "v2/service_entries",
+        "v1/submitted_inspection_forms",
+        "v1/vehicles",
+        "v1/expense_entries",
+        "v2/contacts",
+        "v1/parts",
+        "v1/purchase_orders",
+        "v1/vehicle_assignments"
+    };
 
 [DataSource.Kind="Fleetio", Publish="Fleetio.Publish"]
 shared Fleetio.Contents = () => FleetioNavTable(BaseUrl) as table;
