@@ -133,7 +133,8 @@ Returns:
 GetNextCursor = (response, url) as nullable text => 
     let
         // Check if there is a next cursor, if not we return null instead to break the iteration
-        cursor = if(Record.FieldOrDefault(response, "next_cursor") <> null) then Text.Combine({url, "?start_cursor=", Record.FieldOrDefault(response, "next_cursor")}) else null
+        // Sample the data to see if other pages exist, if so we switch `per_page` to 100 to increase the record count
+        cursor = if(Record.FieldOrDefault(response, "next_cursor") <> null) then Text.Combine({url, "?per_page=100&start_cursor=", Record.FieldOrDefault(response, "next_cursor")}) else null
     in
         cursor;
 
