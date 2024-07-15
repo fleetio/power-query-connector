@@ -27,6 +27,8 @@ body:
         - 'yes'
         - 'no'
       default: 1
+    validations:
+      required: true
   - type: input
     id: severity_input
     attributes:
