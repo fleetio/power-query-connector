@@ -7,7 +7,7 @@ The Fleetio Power Query Connector allows you to connect directly to the Fleetio 
 </br>
 
 ## Install for Power BI Desktop
-1. Download our **Fleetio.mez** file from this repo
+1. Download our **Fleetio.mez** file from this repo (located in `bin/AnyCPU/Debug`)
 2. Open Power BI, and go to **File > Options and settings > Options > Security > Data Extensions**. Check the option **(Not Recommended) Allow any extension to load without validation or warning**
 3. Restart Power BI Desktop
 4. Go to **Get Data** and search fro **Fleetio(Beta)(Custom)**
