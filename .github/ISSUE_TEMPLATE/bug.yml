@@ -29,10 +29,16 @@ body:
       default: 1
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: severity_input
     attributes:
       label: Severity
-      description: Please put a number 1-5 (1 being low and 5 being high)
+      description: Please select a number 1-5 (1 being low and 5 being high)
+      options:
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
     validations:
       required: true
