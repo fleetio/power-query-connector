@@ -1,15 +1,15 @@
-name: Feature Request
-description: File a Feature Request
-title: "[Feature Request]: "
-labels: ["enhancement"]
+name: Security Concern
+description: File a Security Concern
+title: "[Security Concern]: "
+labels: ["security", "bug"]
 assignees:
   - jmmizerany
 body:
   - type: textarea
     id: request_input
     attributes:
-      label: Request Details
-      description: What would you like to see added or changed?
+      label: Bug Details
+      description: What seems to be the issue? Please provide screenshots if possible
     validations:
       required: true
   - type: input
@@ -27,8 +27,6 @@ body:
         - Yes
         - No
       default: 1
-    validations:
-      required: true
   - type: input
     id: severity_input
     attributes:
