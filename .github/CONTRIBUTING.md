@@ -1,5 +1,5 @@
 # How to Contribute
-While our Power Query Connector is still in review to become a certified connector in the Microsoft Ecosystem, we welcome anyone to help contribute to this project. By contributing, you also agree to our Code of Conduct.
+While our Power Query Connector is still in review to become a certified connector in the Microsoft Ecosystem, we welcome anyone to help contribute to this project. By contributing, you also agree to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Creating an Issue
 We use Issues in GitHub to track the following:
