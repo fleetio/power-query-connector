@@ -8,7 +8,7 @@ If there is a direct issue around security with our connector configuration, ple
 
 ## Supported SDK Version
 
-We currently support the following Microsoft Power SDK Versions
+We currently support the following Microsoft Power Query SDK Versions
 
 |   SDK Versions  |
 | --------------- |
