@@ -5,3 +5,13 @@ Since our Power Query Connector is built directly using the Microsoft Power Quer
 
 # Fleetio Connector Related
 If there is a direct issue around security with our connector configuration, please open a GitHub issue using the Security Template
+
+## Supported SDK Version
+
+We currently support the following Microsoft Power SDK Versions
+
+|   SDK Versions  |
+| --------------- |
+|     v0.4.0      |
+
+
